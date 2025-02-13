@@ -11,7 +11,7 @@ module top_module(
 
     always @(*) begin
         case(state)
-            LEFT:next_state=(bump_left==1'b1)?RIGHT:LEFT;
+            LEFT:next_state=(bump_left==1'b1)?RIGHT:LEFT; //condition 
             RIGHT:next_state=(bump_right==1'b1)?LEFT:RIGHT;
         endcase
     end
