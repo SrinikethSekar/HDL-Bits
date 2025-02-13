@@ -16,5 +16,5 @@ module top_module(
     assign out = (state[D]==1);
 
 
-//one hot is quite complicated but it's easy to understanding , simply what are all state comes
+//one hot is quite complicated but it's easy to understanding , simply what are all state comes under their states you need to represent them.
 endmodule
