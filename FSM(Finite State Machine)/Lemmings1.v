@@ -12,7 +12,7 @@ module top_module(
     always @(*) begin
         case(state)
             LEFT:next_state=(bump_left==1'b1)?RIGHT:LEFT; //condition for the left bump and that should be true to both left and right
-            RIGHT:next_state=(bump_right==1'b1)?LEFT:RIGHT;//condition 
+            RIGHT:next_state=(bump_right==1'b1)?LEFT:RIGHT;//condition for the right bump
         endcase
     end
 
