@@ -15,4 +15,6 @@ module top_module(
     // Output logic: 
     assign out = (state[D]==1);
 
+
+//one hot is quite complicated but it's easy to understanding , simply what are all state comes
 endmodule
