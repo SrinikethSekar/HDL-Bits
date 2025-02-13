@@ -8,7 +8,7 @@ module top_module(
 
     always_comb begin
         case(state)
-            a:next_state=in?b:a;
+            a:next_state=in?b:a; //if it obeys means 1 that is b ,else 0 that is a
             b:next_state=in?b:c;
             c:next_state=in?d:a;
             d:next_state=in?b:c;
