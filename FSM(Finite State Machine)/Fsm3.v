@@ -20,7 +20,7 @@ module top_module(
     end
 
     // State flip-flops with asynchronous reset
-    
+    //these conditions are always common to all the clock and reset signals
     always@(posedge clk or posedge areset)
         begin
             if(areset)
